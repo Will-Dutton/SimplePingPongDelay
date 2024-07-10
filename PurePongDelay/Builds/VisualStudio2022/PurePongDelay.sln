@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PurePongDelay - Standalone Plugin", "PurePongDelay_StandalonePlugin.vcxproj", "{03DBCE15-20DB-087F-0B00-84E585CE8C5C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E} = {327AFBB6-FFC4-B97E-E515-89E078B2CC9E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PurePongDelay - VST3", "PurePongDelay_VST3.vcxproj", "{192AC63D-6D9E-D1E3-8460-65DEBBD7398B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E} = {327AFBB6-FFC4-B97E-E515-89E078B2CC9E}
+		{6A13A27A-6C4C-9056-8C94-09B1747524EE} = {6A13A27A-6C4C-9056-8C94-09B1747524EE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PurePongDelay - Shared Code", "PurePongDelay_SharedCode.vcxproj", "{327AFBB6-FFC4-B97E-E515-89E078B2CC9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PurePongDelay - VST3 Manifest Helper", "PurePongDelay_VST3ManifestHelper.vcxproj", "{6A13A27A-6C4C-9056-8C94-09B1747524EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192AC63D-6D9E-D1E3-8460-65DEBBD7398B}.Debug|x64.ActiveCfg = Debug|x64
+		{192AC63D-6D9E-D1E3-8460-65DEBBD7398B}.Debug|x64.Build.0 = Debug|x64
+		{192AC63D-6D9E-D1E3-8460-65DEBBD7398B}.Release|x64.ActiveCfg = Release|x64
+		{192AC63D-6D9E-D1E3-8460-65DEBBD7398B}.Release|x64.Build.0 = Release|x64
+		{03DBCE15-20DB-087F-0B00-84E585CE8C5C}.Debug|x64.ActiveCfg = Debug|x64
+		{03DBCE15-20DB-087F-0B00-84E585CE8C5C}.Debug|x64.Build.0 = Debug|x64
+		{03DBCE15-20DB-087F-0B00-84E585CE8C5C}.Release|x64.ActiveCfg = Release|x64
+		{03DBCE15-20DB-087F-0B00-84E585CE8C5C}.Release|x64.Build.0 = Release|x64
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E}.Debug|x64.ActiveCfg = Debug|x64
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E}.Debug|x64.Build.0 = Debug|x64
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E}.Release|x64.ActiveCfg = Release|x64
+		{327AFBB6-FFC4-B97E-E515-89E078B2CC9E}.Release|x64.Build.0 = Release|x64
+		{6A13A27A-6C4C-9056-8C94-09B1747524EE}.Debug|x64.ActiveCfg = Debug|x64
+		{6A13A27A-6C4C-9056-8C94-09B1747524EE}.Debug|x64.Build.0 = Debug|x64
+		{6A13A27A-6C4C-9056-8C94-09B1747524EE}.Release|x64.ActiveCfg = Release|x64
+		{6A13A27A-6C4C-9056-8C94-09B1747524EE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
